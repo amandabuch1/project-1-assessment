@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    background-color: rgb(169,169,169);
+    font-size: 20px;
+    margin: 0 40px;
+}
+
+input {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+button:hover {
+    background-color: rgb(220,220,220);
+}
+
